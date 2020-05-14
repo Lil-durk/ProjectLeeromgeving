@@ -1,0 +1,177 @@
+*{
+    background-color: #F2F2F2 !important;
+}
+
+.logo   {
+    width: 20% !important;
+    height: 15% !important;
+}
+
+.container{
+    text-align: center !important;
+    color: #24126E;
+    border: 1px solid #D70096 !important;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 10%;
+}
+
+.loginform{
+    left: 0;
+	  right: 0;
+  	margin-top: 10px;
+    margin: auto;
+}
+
+input[type="text"],
+select.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #24126E;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  color: #24126E;
+}
+
+input[type="text"]:focus,
+select.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #24126E;
+  border-bottom: 1px solid #D70096 !important;
+}
+
+input[type="password"],
+select.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #24126E;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+input[type="password"]:focus,
+select.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #24126E;
+  border-bottom: 1px solid #D70096 !important;
+}
+
+#inlogbtn{
+  background-color: #24126E !important; /* voor de browsers die linear gradient niet supporten */
+  background-image: linear-gradient(#24126E, #D70096);
+  color: white;
+  position: absolute;
+  text-align: center;
+  left: 47%;
+  border-radius: 35px;
+}
+
+.inlogpijl{
+  width: 5%;
+  height: 5%;
+  float: right;
+  margin-right: 30%;
+}
+
+.terugpijl{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  width: 5%;
+  height: 5%;
+  float: left;
+  margin-left: 30%;
+}
+
+/* sessiekeuze.php */
+
+#beeldsessiebtn{
+  width: 30%;
+  height: 20%;
+  background-color: #24126E !important; /* voor de browsers die linear gradient niet supporten */
+  background-image: linear-gradient(#24126E, #D70096);
+  color: white;
+  font-size: xx-large;
+  position: absolute;
+  text-align: center;
+  left: 15%;
+  top: 40%;
+  border-radius: 80px;
+}
+
+#lessonlearnedbtn{
+  width: 30%;
+  height: 20%;
+  background-color: #24126E !important; /* voor de browsers die linear gradient niet supporten */
+  background-image: linear-gradient(#24126E, #D70096);
+  color: white;
+  font-size: xx-large;
+  position: absolute;
+  text-align: center;
+  right: 15%;
+  top: 40%;
+  border-radius: 80px;
+}
+
+
+/* fotogroep.php */
+
+.fotoform{
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 10%;;
+}
+
+#uploadfotonav{
+  float: right;
+  border: 1px solid #24126E !important;
+}
+
+li a{
+  color: #24126E !important;
+}
+
+
+
+.button-wrapper {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin: 10% auto;
+}
+
+.button-wrapper span.label {
+  width: 100%;
+  background-image: linear-gradient(#24126E, #D70096) !important;
+  color: #fff;
+  font-size:30px;
+  padding: 2%;
+  border-radius: 80px;
+}
+
+#upload {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+#fotodiv{
+  position:absolute;
+  width:300px;
+  height:200px;
+  background:white !important;
+  bottom:100px;
+  right:25%;
+  left:50%;
+  margin-left:-150px;
+  border: 1px solid #24126E;
+  border-radius: 80px;
+  text-align: center;
+  padding: 2%;
+}
